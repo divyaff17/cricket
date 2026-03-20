@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Cricket Academy</title>
+    <meta
+      name="description"
+      content="Elite Cricket Academy - Cricket coaching in Toronto. Beginner to advanced training, weekend batches, fitness and fielding."
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="wrap nav">
+        <div class="brand" id="brandBtn">Elite Cricket Academy</div>
+
+        <!-- mobile hamburger -->
+        <button class="menu" id="menuBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="navLinks" id="navLinks">
+          <li><a href="#home" class="link active" data-page="home">Home</a></li>
+          <li><a href="#about" class="link" data-page="about">About</a></li>
+          <li><a href="#programs" class="link" data-page="programs">Programs</a></li>
+          <li><a href="#coaches" class="link" data-page="coaches">Coaches</a></li>
+          <li><a href="#gallery" class="link" data-page="gallery">Gallery</a></li>
+          <li><a href="#contact" class="link" data-page="contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- HOME -->
+      <section class="page" id="home">
+        <div class="hero">
+          <div class="heroShade"></div>
+          <div class="wrap heroBox">
+            <p class="topLine">Toronto &bull; Nets &bull; Fitness &bull; Match Practice</p>
+            <h1 class="heroTitle">
+              Train Like a Champion<br />
+              <span>Your Cricket Journey Starts Here</span>
+            </h1>
+            <p class="heroText">
+              Professional coaching with experienced trainers and modern facilities.
+            </p>
+
+            <div class="btnRow">
+              <button class="btn mainBtn" id="joinBtn">Join Now</button>
+              <button class="btn ghostBtn" data-page="programs">View Programs</button>
+            </div>
+
+            <div class="stats">
+              <div class="statBox">
+                <div class="num">300+</div>
+                <div class="lbl">Students Trained</div>
+              </div>
+              <div class="statBox">
+                <div class="num">6</div>
+                <div class="lbl">Nets + Turf Wickets</div>
+              </div>
+              <div class="statBox">
+                <div class="num">10+</div>
+                <div class="lbl">Years Coaching</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- quick intro cards below hero -->
+        <div class="wrap homeIntro">
+          <div class="twoCol about">
+
+            <div class="homeLeft">
+              <div class="box">
+                <h2 class="smallHead">Why Elite?</h2>
+                <p class="p">
+                  We focus on <b>discipline</b>, <b>skills</b> and match situations.
+                  Lots of nets, proper drills and simple feedback.
+                </p>
+                <ul class="list">
+                  <li>Batting technique + basic power hitting</li>
+                  <li>Bowling rhythm, line-length, variations</li>
+                  <li>Fielding sessions (yes, the tough ones)</li>
+                </ul>
+                <button class="btn smallBtn" data-page="about">More About Us</button>
+              </div>
+
+              <div class="box box2">
+                <h2 class="smallHead">Next Batch Starting</h2>
+                <p class="p dim">You can start any time, but weekly batches are easier to track.</p>
+                <div class="pillRow">
+                  <span class="pill">Weekdays</span>
+                  <span class="pill">Weekends</span>
+                  <span class="pill">Evening</span>
+                </div>
+                <div class="batchFoot">
+                  <p class="tiny" style="margin: 0;">Tap join and we'll call you.</p>
+                  <button class="btn mainBtn smallBtn" id="joinBtn2">Join Now</button>
+                </div>
+              </div>
+
+              <div class="btnRow">
+                <button class="btn ghostBtn smallBtn" data-page="testimonials">See Reviews</button>
+                <button class="btn smallBtn" data-page="register">Register / Enquire</button>
+              </div>
+            </div>
+
+            <!-- right side image -->
+            <div class="picBox box">
+              <img
+                src="https://i0.wp.com/cricketgraph.com/wp-content/uploads/2021/01/Sudaan-Cricket-Academy-Thane-LOGO.jpg?fit=874%2C404&ssl=1"
+                alt="Cricket coaching practice session"
+                loading="lazy"
+                class="homeImg"
+              />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="page hide">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>About the Academy</h2>
+            <p class="dim">Not a fancy talk academy. More like "come to nets and grind".</p>
+          </div>
+
+          <div class="twoCol about">
+            <div>
+              <p class="p">
+                Elite Cricket Academy is for players who want real improvement —
+                technique, mindset, and consistency. We train school-level,
+                club-level and anyone who is serious.
+              </p>
+              <p class="p">
+                Sessions include batting, bowling, fielding drills, fitness
+                routines and match practice. We also push discipline (on time,
+                warm-up, stretching… boring but needed).
+              </p>
+
+              <div class="badges">
+                <span class="badge">Turf + mat wickets</span>
+                <span class="badge">Video feedback (basic)</span>
+                <span class="badge">Small groups</span>
+              </div>
+            </div>
+
+            <div class="picBox">
+              <img
+                src="https://www.shutterstock.com/editorial/image-editorial/M4TdAf1dMfDaU3y8MzY3NTg=/afghanistan-cricket-players-during-practice-session-sher-e-bangla-440nw-10421718d.jpg"
+                alt="Practice session at cricket stadium"
+                loading="lazy"
+              />
+              <div class="cap">practice session</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMS -->
+      <section class="page hide" id="programs">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Programs</h2>
+            <p class="dim">Pick what suits your schedule and level. You can switch later.</p>
+          </div>
+
+          <div class="fourBoxes">
+            <div class="card">
+              <h3>Beginner Coaching</h3>
+              <p class="dim">Basics of stance, grip, bowling action, and simple fielding.</p>
+              <div class="cardBot">
+                <span class="tag">4 weeks</span>
+                <button class="btn smallBtn" data-page="register">Enquire</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Advanced Training</h3>
+              <p class="dim">Technique correction, match scenarios, stronger net intensity.</p>
+              <div class="cardBot">
+                <span class="tag">8 weeks</span>
+                <button class="btn smallBtn" data-page="register">Enquire</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Weekend Batches</h3>
+              <p class="dim">Busy schedule? Weekend batches with drills + practice matches.</p>
+              <div class="cardBot">
+                <span class="tag">Sat–Sun</span>
+                <button class="btn smallBtn" data-page="register">Enquire</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Fitness &amp; Fielding</h3>
+              <p class="dim">Speed, agility, catching, throwing. This one will make you tired.</p>
+              <div class="cardBot">
+                <span class="tag">Add-on</span>
+                <button class="btn smallBtn" data-page="register">Enquire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COACHES -->
+      <section class="page hide" id="coaches">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Coaches</h2>
+            <p class="dim">Good coaches + simple feedback. No ego stuff.</p>
+          </div>
+
+          <div class="cardsRow">
+            <div class="card coach">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/57603a023c44d84d075988b3/1473413013727-TDA8GOQ1O74CQJECKXJT/FCC-9218.jpg"
+                alt="Coach Liam Carter"
+                loading="lazy"
+              />
+              <div class="pad">
+                <h3>Coach Liam Carter</h3>
+                <p class="dim">10+ years experience</p>
+                <p class="p tiny">Batting + match mindset. Keeps saying "watch the ball" (he's right).</p>
+              </div>
+            </div>
+
+            <div class="card coach">
+              <img
+                src="https://kkalpavrikshacricketclinic.com/wp-content/uploads/2023/06/600x800-elite-mobile-other-pages-banners-copy.webp"
+                alt="Coach Noah Tremblay"
+                loading="lazy"
+              />
+              <div class="pad">
+                <h3>Coach Noah Tremblay</h3>
+                <p class="dim">Bowling specialist</p>
+                <p class="p tiny">Pace + swing basics. Works on run-up and consistency. Strict but helpful.</p>
+              </div>
+            </div>
+
+            <div class="card coach">
+              <img
+                src="https://static.wixstatic.com/media/aa447a_5dd284f75b4a4ebda53de838c4e87c2c~mv2.png/v1/fill/w_730,h_672,al_c,q_90/aa447a_5dd284f75b4a4ebda53de838c4e87c2c~mv2.png"
+                alt="Coach Tommy Jenkins"
+                loading="lazy"
+              />
+              <div class="pad">
+                <h3>Coach Tommy Jenkins</h3>
+                <p class="dim">Fitness &amp; fielding</p>
+                <p class="p tiny">Speed and agility sessions. Warm-up is compulsory!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="page hide" id="gallery">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Gallery</h2>
+            <p class="dim">Some practice moments from nets, matches, and ground sessions.</p>
+          </div>
+
+          <div class="gridGallery">
+            <a class="g" href="#">
+              <img
+                src="https://img.freepik.com/premium-photo/boy-cricket-body-injury-sports-field-with-glowing-red-ai-generated-effect-from-batting-action-kid-child-batting-athlete-with-stress-graph-hologram-muscle-pain-from-wicket-mistake_590464-202150.jpg?semt=ais_rp_progressive&w=740&q=80"
+                alt="Batting practice drill"
+                loading="lazy"
+              />
+            </a>
+            <a class="g" href="#">
+              <img
+                src="https://img.freepik.com/premium-photo/cricketer-batting-cricket-pitch-local-cricket-match-being-played-green-cricket-oval-summer-australia_866797-6448.jpg?semt=ais_rp_progressive&w=740&q=80"
+                alt="Match play on oval"
+                loading="lazy"
+              />
+            </a>
+            <a class="g" href="#">
+              <img
+                src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=80"
+                alt="Cricket coaching session"
+                loading="lazy"
+              />
+            </a>
+            <a class="g" href="#">
+              <img
+                src="https://www.ccmacademy.co.uk/images/academy_about/cricketers2.jpg"
+                alt="Group practice at ground"
+                loading="lazy"
+              />
+            </a>
+            <a class="g" href="#">
+              <img
+                src="https://media.istockphoto.com/id/1191513043/photo/cricket-bowler-preparing-to-throw-the-ball.jpg?s=612x612&w=0&k=20&c=lkCaxzY8vQzUZjDI0ALbS_sTHytYoAt3C_CaubQJkE8="
+                alt="Bowler in action"
+                loading="lazy"
+              />
+            </a>
+            <a class="g" href="#">
+              <img
+                src="https://www.mcccricketacademy.co.in/wp-content/uploads/2023/10/Machine-Bowling.jpg"
+                alt="Bowling machine session"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- REGISTER -->
+      <section class="page hide" id="register">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Registration</h2>
+            <p class="dim">Fill this and we'll call you. Usually same day.</p>
+          </div>
+
+          <div class="twoCol formArea">
+            <form id="regForm" class="box" novalidate>
+
+              <div class="row2">
+                <div class="f">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your full name" />
+                  <small class="err" id="eName"></small>
+                </div>
+                <div class="f">
+                  <label for="age">Age</label>
+                  <input type="number" id="age" placeholder="e.g. 14" />
+                  <small class="err" id="eAge"></small>
+                </div>
+              </div>
+
+              <div class="row2">
+                <div class="f">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" placeholder="10 digit number" />
+                  <small class="err" id="ePhone"></small>
+                </div>
+                <div class="f">
+                  <label for="level">Experience Level</label>
+                  <select id="level">
+                    <option value="">Select your level...</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                  </select>
+                  <small class="err" id="eLevel"></small>
+                </div>
+              </div>
+
+              <div class="f">
+                <label for="msg">Message <span class="dim tiny">(optional)</span></label>
+                <textarea id="msg" rows="4" placeholder="Timings, goals, anything..."></textarea>
+              </div>
+
+              <div class="btnRow">
+                <button type="submit" class="btn mainBtn">Submit</button>
+                <button type="button" class="btn ghostBtn" id="clearBtn">Clear</button>
+              </div>
+
+              <p class="note" id="formNote"></p>
+            </form>
+
+            <div class="box">
+              <h3>What happens next?</h3>
+              <p class="dim">We'll confirm timing, ask a few questions, and suggest the right program.</p>
+              <div class="steps">
+                <div><b>Step 1</b> &mdash; Quick call from us</div>
+                <div><b>Step 2</b> &mdash; Trial session (optional)</div>
+                <div><b>Step 3</b> &mdash; Join final batch</div>
+              </div>
+              <div class="saved">
+                <span class="dim">Saved registrations: </span>
+                <b id="savedCount">0</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="page hide" id="testimonials">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Testimonials</h2>
+            <p class="dim">What students say (great vibe honestly)</p>
+          </div>
+
+          <div class="grid3">
+            <div class="box">
+              <p class="quote">"Great coaching and friendly environment. Coaches actually notice mistakes."</p>
+              <p class="who">— Rohan, U16</p>
+            </div>
+            <div class="box">
+              <p class="quote">"My skills improved a lot in 3 months. Bowling accuracy got way better."</p>
+              <p class="who">— Ayaan, Club player</p>
+            </div>
+            <div class="box">
+              <p class="quote">"Fielding sessions are tough but worth it. Good discipline and warm-up."</p>
+              <p class="who">— Meera, Intermediate</p>
+            </div>
+          </div>
+
+          <div class="center">
+            <button class="btn mainBtn smallBtn" data-page="register">Join Now</button>
+            <button class="btn ghostBtn smallBtn" data-page="home">Back Home</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="page hide" id="contact">
+        <div class="wrap">
+          <div class="secTop">
+            <h2>Contact</h2>
+            <p class="dim">Visit the ground or call us for timings.</p>
+          </div>
+
+          <div class="contactWrap">
+            <div class="box">
+              <h3>Elite Cricket Academy</h3>
+              <p class="dim">123 Maple Leaf Way, Toronto, ON M4B 1B3, Canada</p>
+              <p class="p"><b>Phone:</b> +1 (416) 555-0198</p>
+              <p class="p"><b>Email:</b> info@elitecricket.ca</p>
+
+              <div class="btnRow contactBtns">
+                <button class="btn mainBtn smallBtn" data-page="register">Join / Register</button>
+                <button class="btn ghostBtn smallBtn" data-page="home">Back Home</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footTop">
+        <div class="wrap footGrid">
+          <div>
+            <p class="footTitle">Elite Cricket Academy</p>
+            <p class="footText">Building Future Cricketers. Proper coaching, discipline and match practice.</p>
+            <div class="social">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="YouTube">YouTube</a>
+            </div>
+          </div>
+
+          <div>
+            <p class="footTitle">Quick Links</p>
+            <ul class="footLinks">
+              <li><a href="#home" data-page="home">Home</a></li>
+              <li><a href="#about" data-page="about">About</a></li>
+              <li><a href="#programs" data-page="programs">Programs</a></li>
+              <li><a href="#coaches" data-page="coaches">Coaches</a></li>
+              <li><a href="#gallery" data-page="gallery">Gallery</a></li>
+              <li><a href="#contact" data-page="contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="footTitle">Contact</p>
+            <div class="footLine">123 Maple Leaf Way, Toronto, ON M4B 1B3, Canada</div>
+            <div class="footLine">Phone: +1 (416) 555-0198</div>
+            <div class="footLine">Email: info@elitecricket.ca</div>
+          </div>
+
+          <div>
+            <p class="footTitle">Batch Timings</p>
+            <div class="footLine">Mon–Fri: 6:00 AM – 8:00 AM</div>
+            <div class="footLine">Evening: 5:00 PM – 8:00 PM</div>
+            <div class="footLine">Weekend: 7:00 AM – 10:00 AM</div>
+            <div class="footLine"><span class="tiny dim">* Timings may change in season</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footBottom">
+        <div class="wrap copyRow">
+          <div>&copy; <span id="yearTxt"></span> Elite Cricket Academy. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
