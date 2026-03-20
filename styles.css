@@ -376,6 +376,7 @@ img {
 .picBox {
   overflow: hidden;
   padding: 0;
+  border-radius: 14px;
 }
 .picBox img {
   height: 280px;
